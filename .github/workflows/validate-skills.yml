@@ -1,0 +1,28 @@
+name: Validate Skills
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+      - 'registry.json'
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+      - 'registry.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate all skills
+        run: python scripts/validate_skill.py
