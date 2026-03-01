@@ -1,5 +1,36 @@
 {
   "version": 1,
   "updated_at": "2026-03-01T00:00:00Z",
-  "skills": []
+  "skills": [
+    {
+      "name": "unity-support",
+      "version": "1.0.0",
+      "description": "Unity/C# development context and best practices",
+      "tags": [
+        "unity",
+        "csharp",
+        "gamedev"
+      ],
+      "author": "CLU Community",
+      "sha256": {
+        "skill.yaml": "1998cb68894b7ffb853e6c1ee80fbaec4f27d69560ed9e6f9fe2fd86af44f16a",
+        "prompt.md": "3e9d69bbc971d32d7a474c127773e1008c07be3c3a8321d17f8f3cb3b5e990a2"
+      }
+    },
+    {
+      "name": "python-support",
+      "version": "1.0.0",
+      "description": "Python development best practices",
+      "tags": [
+        "python",
+        "testing",
+        "typing"
+      ],
+      "author": "CLU Community",
+      "sha256": {
+        "skill.yaml": "ab31602f9ce1b6b2137771618b141c5921e09f7bbc23f09a56874323fdda41ac",
+        "prompt.md": "933dcc47c07c43a1cd8f61c5504fedb5da0fc91a090695ef935c8100114a2372"
+      }
+    }
+  ]
 }

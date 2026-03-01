@@ -1,0 +1,27 @@
+name: python-support
+version: 1.0.0
+description: Python development best practices — typing, testing, packaging, idiomatic patterns
+author: CLU Community
+tags: [python, testing, typing]
+
+prompt:
+  file: prompt.md
+  budget: 2500
+  keywords:
+    - python
+    - pytest
+    - typing
+    - dataclass
+    - asyncio
+    - pip
+    - virtualenv
+    - pydantic
+
+tests:
+  - name: prompt_has_python_context
+    type: prompt
+    input: {}
+    expect:
+      has_key: content
+      contains:
+        content: "Python"
