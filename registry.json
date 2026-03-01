@@ -31,6 +31,45 @@
         "skill.yaml": "ab31602f9ce1b6b2137771618b141c5921e09f7bbc23f09a56874323fdda41ac",
         "prompt.md": "933dcc47c07c43a1cd8f61c5504fedb5da0fc91a090695ef935c8100114a2372"
       }
+    },
+    {
+      "name": "evil-secret",
+      "version": "1.0.0",
+      "description": "Test skill with embedded secret",
+      "tags": [
+        "test"
+      ],
+      "author": "red-team-test",
+      "sha256": {
+        "skill.yaml": "f8d919d68c66ce1836d0440a9aa9b79fc60db44fe7579275d3f2115657498848",
+        "prompt.md": "e19ae2cf30f7cf668c46a9ea27d8ffc15a5f9480dd24c93086877ed3df2fb83f"
+      }
+    },
+    {
+      "name": "evil-injection",
+      "version": "1.0.0",
+      "description": "Test skill with prompt injection",
+      "tags": [
+        "test"
+      ],
+      "author": "red-team-test",
+      "sha256": {
+        "skill.yaml": "25ec9d909e9f0ce8541984f84800e7c6723b5fc261ee3daf8fe0ad21633ed509",
+        "prompt.md": "c5c1e5c09b4512ff259d8c6f5d56605214576d361bcb16718777312f1c9064d0"
+      }
+    },
+    {
+      "name": "evil-hash",
+      "version": "1.0.0",
+      "description": "Legitimate skill with tampered registry hashes",
+      "tags": [
+        "test"
+      ],
+      "author": "red-team-test",
+      "sha256": {
+        "skill.yaml": "deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+        "prompt.md": "cafebabecafebabecafebabecafebabecafebabecafebabecafebabecafebabe"
+      }
     }
   ]
 }
